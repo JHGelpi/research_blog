@@ -26,6 +26,7 @@ Research should typically draw from:
 ### Structure and Organization
 - Posts are stored in `posts/` directory
 - Naming convention: `YYYY-MM-DD-title-slug.md`
+- Research materials are stored in `research/` directory with matching dates
 - Each post should include a **Resources** section at the end with curated links and references
 
 ## Working with the Author
@@ -36,13 +37,43 @@ Research should typically draw from:
 - Ask clarifying questions to understand the author's perspective and intent
 - Offer alternative framings or angles when helpful
 
+### Research Phase (Before Writing)
+
+Each blog post begins with research and curation. Help identify and summarize:
+
+**Focus Areas:**
+- **AI**: Models, tooling, applications, industry adoption, ethical considerations
+- **Software Engineering**: Practices, methodologies, team dynamics, developer experience
+- **Data Analytics**: Tools, trends, visualization, business intelligence
+- **Data Engineering**: Pipelines, infrastructure, data quality, orchestration
+- **Cloud Computing & Architecture**: Kubernetes, cloud services, patterns, cost optimization
+
+**Research Activities:**
+1. Search for recent articles, reports, and announcements in the focus areas
+2. Identify 5-10 key articles that are relevant and timely
+3. Summarize each article with:
+   - Title and source
+   - Key takeaways
+   - Why it's relevant to the target audience
+   - Potential angles for blog exploration
+4. Create a research document in `research/YYYY-MM-DD-topic-research.md`
+5. Discuss with the author which themes or angles are most interesting
+
+**What Makes Good Research Material:**
+- Published within the last 1-2 weeks (or recent major announcements)
+- From reputable sources (industry publications, major tech companies, research institutions)
+- Relevant to practitioners' day-to-day work or strategic decisions
+- Offers data, case studies, or substantive insights (not just opinion pieces)
+- Connects to multiple aspects of the author's focus areas
+
 ### Writing Process
-1. Start by understanding the topic and key points the author wants to explore
-2. Help research relevant industry trends, data, and examples
+1. Review the research document to understand key themes and articles
+2. Discuss with the author which angle or question to explore
 3. Collaboratively draft sections, maintaining the curious explorer voice
 4. Keep the target audience front of mind: what will practitioners find useful?
-5. Ensure posts stay within the 800-1200 word target
-6. Add a Resources section with relevant links at the end
+5. Weave in data and examples from the research materials
+6. Ensure posts stay within the 800-1200 word target
+7. Add a Resources section with curated links from the research
 
 ### Post Structure
 A typical post should include:
@@ -53,16 +84,25 @@ A typical post should include:
 
 ## File Commands
 
+### Create Research Document
+```bash
+# Create research document for a new topic
+cp research-template.md research/$(date +%Y-%m-%d)-topic-research.md
+```
+
 ### Create New Post
 ```bash
-# Use current date and topic slug
-touch posts/$(date +%Y-%m-%d)-topic-slug.md
+# Use current date and topic slug (matching research date)
+cp post-template.md posts/$(date +%Y-%m-%d)-topic-slug.md
 ```
 
 ### Preview Posts
 ```bash
 # List all posts chronologically
 ls -lt posts/
+
+# View research and posts together
+ls -lt research/ posts/
 ```
 
 ## Writing Guidelines
