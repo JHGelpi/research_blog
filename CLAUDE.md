@@ -72,8 +72,9 @@ Each blog post begins with research and curation. Help identify and summarize:
 3. Collaboratively draft sections, maintaining the curious explorer voice
 4. Keep the target audience front of mind: what will practitioners find useful?
 5. Weave in data and examples from the research materials
-6. Ensure posts stay within the 800-1200 word target
-7. Add a Resources section with curated links from the research
+6. Include information gleaned from the `Reflections` section in the research.md file
+7. Ensure posts stay within the 800-1200 word target
+8. Add a Resources section with curated links from the research
 
 ### Post Structure
 A typical post should include:
