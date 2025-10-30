@@ -25,6 +25,7 @@ This week's research focuses on Software Engineering practices in late 2025, wit
   - 61% of junior developers find the job market challenging vs. 54% of senior developers
 - **Relevance**: Shows the gap between how organizations measure productivity and what developers actually experience. Critical for managers understanding team effectiveness.
 - **Potential Angles**: "Are we measuring the wrong things?" / "The productivity metrics disconnect" / "What developers actually need to be productive"
+- **Reflections**: 
 
 ### Article 2: Developer Productivity AI Arena Launch
 - **Source**: JetBrains Blog
@@ -37,6 +38,7 @@ This week's research focuses on Software Engineering practices in late 2025, wit
   - Addresses the gap between tools that accelerate work vs. those that genuinely understand development
 - **Relevance**: As teams adopt AI tools, they need ways to evaluate which actually improve productivity vs. just speed. Critical for tool selection decisions.
 - **Potential Angles**: "Beyond the hype: How to actually evaluate AI coding tools" / "What makes an AI coding assistant actually useful?"
+- **Reflections**: 
 
 ### Article 3: How Engineering Leadership is Changing in 2025
 - **Source**: LeadDev
@@ -49,6 +51,7 @@ This week's research focuses on Software Engineering practices in late 2025, wit
   - Priorities shifting alongside team structures and required leadership skills
 - **Relevance**: Engineering managers face dual pressure: deliver more with less while keeping teams engaged. Directly addresses the reality many in the audience are living.
 - **Potential Angles**: "The new engineering manager mandate" / "Leading through efficiency pressure" / "What engineering teams actually need from leaders now"
+- **Reflections**: 
 
 ### Article 4: Platform Engineering Trends for 2025
 - **Source**: Multiple industry sources (DuploCloud, Mia-Platform, Configu)
@@ -62,6 +65,7 @@ This week's research focuses on Software Engineering practices in late 2025, wit
   - AI-driven automation embedded into platform development lifecycle
 - **Relevance**: Platform engineering promised to solve developer productivity but many implementations aren't delivering. Teams need to understand what actually works.
 - **Potential Angles**: "Why your developer portal isn't getting adopted" / "Platform engineering reality check" / "What platform teams get wrong"
+- **Reflections**: 
 
 ### Article 5: AI Revolution in Software Development (October 2025)
 - **Source**: Coaio
@@ -74,6 +78,7 @@ This week's research focuses on Software Engineering practices in late 2025, wit
   - Only about half of developers "somewhat" trust AI responses; 30% trust "a little" or "not at all"
 - **Relevance**: Major AI releases in October show rapid advancement, but trust remains an issue. Teams need to navigate hype vs. reality.
 - **Potential Angles**: "The AI trust gap in software engineering" / "Speed vs. trust: The AI productivity paradox"
+- **Reflections**: 
 
 ### Article 6: Test Automation Trends for 2025
 - **Source**: Multiple testing industry sources (TestGuild, Xray, TestRail)
@@ -87,6 +92,7 @@ This week's research focuses on Software Engineering practices in late 2025, wit
   - Gartner predicts 70% of new applications will use low-code/no-code testing tools
 - **Relevance**: Testing is often the bottleneck in delivery. AI and automation promise relief but adoption is still early. Testers need to understand what's actually working.
 - **Potential Angles**: "Is AI testing ready for production?" / "The testing automation gap"
+- **Reflections**: 
 
 ### Article 7: Code Review Practices in 2025
 - **Source**: Multiple dev tools sources (Qodo, Swarmia, GitHub)
@@ -100,6 +106,7 @@ This week's research focuses on Software Engineering practices in late 2025, wit
   - Forward-thinking teams maintain healthy skepticism toward AI reviews
 - **Relevance**: Code review is a daily friction point. AI promises to help but teams need to balance speed with quality and learning.
 - **Potential Angles**: "The code review bottleneck" / "Can AI actually help with code review?" / "Why code reviews still take too long"
+- **Reflections**: 
 
 ## Emerging Themes
 
