@@ -32,6 +32,8 @@ Research should typically draw from:
 ## Sources
 - Only use the sources listed in `sources.md` when looking for new articles.
 - Articles should never be more than 60 days from current day.
+- Always pull the most recent sources and never return more than 2 articles per source.  
+- Make sure the article does not already exist in one of the existing research files.
 
 ## Working with the Author
 
