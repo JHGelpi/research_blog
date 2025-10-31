@@ -29,6 +29,10 @@ Research should typically draw from:
 - Research materials are stored in `research/` directory with matching dates
 - Each post should include a **Resources** section at the end with curated links and references
 
+## Sources
+- Only use the sources listed in `sources.md` when looking for new articles.
+- Articles should never be more than 60 days from current day.
+
 ## Working with the Author
 
 ### Collaboration Style
@@ -108,6 +112,7 @@ ls -lt research/ posts/
 
 ## Writing Guidelines
 
+- Target audience is the software teams I lead.  This is a global team of ~80 dev managers, developers, and SDETs
 - Use "we" when exploring ideas together with readers
 - Lead with questions that practitioners are already asking
 - Balance strategic insights with tactical applicability
