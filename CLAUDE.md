@@ -56,14 +56,15 @@ Each blog post begins with research and curation. Help identify and summarize:
 
 **Research Activities:**
 1. Search for recent articles, reports, and announcements in the focus areas
-2. Identify 5-10 key articles that are relevant and timely
-3. Summarize each article with:
+2. Identify 2-3 key articles that are relevant and timely
+3. Do not repeat the same articles from previous research files
+4. Summarize each article with:
    - Title and source
    - Key takeaways
    - Why it's relevant to the target audience
    - Potential angles for blog exploration
-4. Create a research document in `research/YYYY-MM-DD-topic-research.md`
-5. Discuss with the author which themes or angles are most interesting
+5. Create a research document in `research/YYYY-MM-DD-topic-research.md`
+6. Discuss with the author which themes or angles are most interesting
 
 **What Makes Good Research Material:**
 - Published within the last 1-2 weeks (or recent major announcements)
