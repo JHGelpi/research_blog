@@ -12,7 +12,9 @@
       "WebFetch(domain:www.kdnuggets.com)",
       "WebFetch(domain:aws.amazon.com)",
       "WebFetch(domain:shopify.engineering)",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:anthropic.com)",
+      "WebFetch(domain:claude.com)"
     ],
     "deny": [],
     "ask": []

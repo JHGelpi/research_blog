@@ -4,6 +4,7 @@
 - https://openai.com/news/
 - https://www.anthropic.com/news
 - https://blog.google/technology/ai/
+- https://cloud.google.com/blog
 - https://www.bensbites.com/
 - https://newsletter.pragmaticengineer.com/
 - https://news.ycombinator.com/
@@ -21,3 +22,10 @@
 - https://www.revelo.com/blog-categories/engineering-management
 - https://engineering.atspotify.com/
 - https://larahogan.me/blog/
+- https://www.reddit.com/r/programming/
+- https://www.reddit.com/r/dataengineering/
+- https://www.reddit.com/r/MachineLearning/
+- https://www.techmeme.com
+- https://www.confluent.io/blog/
+- https://stratechery.com
+- https://arstechnica.com
