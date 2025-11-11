@@ -4,30 +4,27 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-This repository contains a weekly tech industry research blog written from the perspective of a Director-level software engineering leader. The target audience is developers, testers, and front-line engineering managers.
+This repository is a personal research journal documenting weekly learning and exploration of the tech industry. It captures key insights, trends, and observations from a Director-level software engineering leader's perspective, serving as a knowledge base and learning log.
 
-## Blog Principles
+## Research Principles
 
-### Voice and Tone
-- **Conversational and accessible**: Write in a practical, approachable style that translates complex topics into actionable insights
-- **Curious explorer**: Investigate topics alongside readers, asking thoughtful questions and discovering insights together
-- **Director to practitioner**: Share observations and research from a leadership perspective while remaining grounded in day-to-day engineering realities
+### Approach
+- **Curious and exploratory**: Investigate topics, ask questions, and synthesize learnings from multiple sources
+- **Practical focus**: Ground research in real-world applications and team leadership challenges
+- **Reflective**: Document not just what was learned, but why it matters and how it connects to broader patterns
 
-### Target Length
-- **800-1200 words** per post
-- Keep posts focused and digestible for busy practitioners
-
-### Content Focus
-Research should typically draw from:
-- **Industry trends and data**: Reports, surveys, market analysis from reputable sources
-- **Team/organizational insights**: Leadership practices, team dynamics, organizational patterns
-- **Tool/product evaluations**: Analysis of specific tools, frameworks, or platforms
+### Research Focus Areas
+- **AI**: Models, tooling, applications, industry adoption, ethical considerations
+- **Software Engineering**: Practices, methodologies, team dynamics, developer experience
+- **Data Analytics**: Tools, trends, visualization, business intelligence
+- **Data Engineering**: Pipelines, infrastructure, data quality, orchestration
+- **Cloud Computing & Architecture**: Kubernetes, cloud services, patterns, cost optimization
 
 ### Structure and Organization
-- Posts are stored in `posts/` directory
-- Naming convention: `YYYY-MM-DD-title-slug.md`
-- Research materials are stored in `research/` directory with matching dates
-- Each post should include a **Resources** section at the end with curated links and references
+- Research documents are stored in `research/` directory
+- Naming convention: `YYYY-MM-DD-topic-area-research.md`
+- Each document captures learning from multiple articles and sources
+- Documents include reflections and synthesis of themes
 
 ## Sources
 - Only use the sources listed in `sources.md` when looking for new articles.
@@ -35,60 +32,37 @@ Research should typically draw from:
 - Always pull the most recent sources and never return more than 2 articles per source.  
 - Make sure the article does not already exist in one of the existing research files.
 
-## Working with the Author
+## Research Workflow
 
-### Collaboration Style
-- **Co-author together**: This is collaborative writing, not just editing or research assistance
-- Suggest content, structure, and flow as you work
-- Ask clarifying questions to understand the author's perspective and intent
-- Offer alternative framings or angles when helpful
-
-### Research Phase (Before Writing)
-
-Each blog post begins with research and curation. Help identify and summarize:
-
-**Focus Areas:**
-- **AI**: Models, tooling, applications, industry adoption, ethical considerations
-- **Software Engineering**: Practices, methodologies, team dynamics, developer experience
-- **Data Analytics**: Tools, trends, visualization, business intelligence
-- **Data Engineering**: Pipelines, infrastructure, data quality, orchestration
-- **Cloud Computing & Architecture**: Kubernetes, cloud services, patterns, cost optimization
+### Conducting Research
 
 **Research Activities:**
 1. Search for recent articles, reports, and announcements in the focus areas
-2. Identify 2-3 key articles that are relevant and timely
+2. Identify 4-6 key articles that are relevant and timely
 3. Do not repeat the same articles from previous research files
-4. Summarize each article with:
+4. For each article, document:
    - Title and source
    - Key takeaways
-   - Why it's relevant to the target audience
-   - Potential angles for blog exploration
+   - Why it's relevant
+   - Personal reflections and observations
 5. Create a research document in `research/YYYY-MM-DD-topic-research.md`
-6. Discuss with the author which themes or angles are most interesting
+6. Synthesize emerging themes across articles
+7. Document what was learned and how insights connect
 
 **What Makes Good Research Material:**
-- Published within the last 1-2 weeks (or recent major announcements)
-- From reputable sources (industry publications, major tech companies, research institutions)
-- Relevant to practitioners' day-to-day work or strategic decisions
+- Published within the last 60 days (or recent major announcements)
+- From reputable sources listed in `sources.md`
+- Relevant to software engineering leadership and practice
 - Offers data, case studies, or substantive insights (not just opinion pieces)
-- Connects to multiple aspects of the author's focus areas
+- Connects to multiple aspects of the research focus areas
 
-### Writing Process
-1. Review the research document to understand key themes and articles
-2. Discuss with the author which angle or question to explore
-3. Collaboratively draft sections, maintaining the curious explorer voice
-4. Keep the target audience front of mind: what will practitioners find useful?
-5. Weave in data and examples from the research materials
-6. Include information gleaned from the `Reflections` section in the research.md file
-7. Ensure posts stay within the 800-1200 word target
-8. Add a Resources section with curated links from the research
-
-### Post Structure
-A typical post should include:
-- **Opening**: Hook that establishes the question or topic being explored
-- **Body**: 2-4 main sections that investigate the topic with data and examples
-- **Practical takeaway**: What should readers do with this information?
-- **Resources**: Curated list of relevant links and sources
+### Documentation Process
+1. Use the research template as the foundation
+2. Fill in article summaries with key information
+3. Add personal reflections for each article
+4. Identify and document emerging themes
+5. Capture additional notes and connections
+6. Focus on learning and synthesis rather than publication
 
 ## File Commands
 
@@ -98,28 +72,17 @@ A typical post should include:
 cp research-template.md research/$(date +%Y-%m-%d)-topic-research.md
 ```
 
-### Create New Post
+### View Research Documents
 ```bash
-# Use current date and topic slug (matching research date)
-cp post-template.md posts/$(date +%Y-%m-%d)-topic-slug.md
+# List all research documents chronologically
+ls -lt research/
 ```
 
-### Preview Posts
-```bash
-# List all posts chronologically
-ls -lt posts/
+## Research Guidelines
 
-# View research and posts together
-ls -lt research/ posts/
-```
-
-## Writing Guidelines
-
-- Target audience is the software teams I lead.  This is a global team of ~80 dev managers, developers, and SDETs
-- Use "we" when exploring ideas together with readers
-- Lead with questions that practitioners are already asking
-- Balance strategic insights with tactical applicability
-- Include specific examples (tools, companies, scenarios) when possible
-- Avoid jargon unless it's standard in the practitioner's vocabulary
-- Link to primary sources in the Resources section rather than inline
-- Each post should leave readers with something they can think about or try
+- Frame learning from a software engineering leadership perspective
+- Connect technical topics to team and organizational impact
+- Include specific examples (tools, companies, scenarios) when documenting learnings
+- Synthesize information across multiple sources to identify patterns
+- Reflect on how insights apply to leading a global team of ~80 dev managers, developers, and SDETs
+- Document both technical understanding and leadership implications
