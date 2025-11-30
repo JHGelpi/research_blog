@@ -37,6 +37,7 @@ This repository is a personal research journal documenting weekly learning and e
 ### Conducting Research
 
 **Research Activities:**
+0. Before researching any articles establish a date frame of reference by checking today's date at the website https://www.calendardate.com/todays.htm and using the location of Raleigh, North Carolina to establish the timezone.
 1. Search for recent articles, reports, and announcements in the focus areas
    - Articles should not be published more than 60 days in the past from curren date
    - Prioritize articles based on recency when considering publish date (pull from articles published in the past week before pulling an article published 60 days ago)

@@ -14,7 +14,14 @@
       "WebFetch(domain:shopify.engineering)",
       "WebSearch",
       "WebFetch(domain:anthropic.com)",
-      "WebFetch(domain:claude.com)"
+      "WebFetch(domain:claude.com)",
+      "WebFetch(domain:www.confluent.io)",
+      "WebFetch(domain:netflixtechblog.com)",
+      "WebFetch(domain:lakefs.io)",
+      "WebFetch(domain:www.montecarlodata.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:www.acceldata.io)",
+      "WebFetch(domain:www.getdbt.com)"
     ],
     "deny": [],
     "ask": []
