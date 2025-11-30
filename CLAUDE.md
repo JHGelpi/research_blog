@@ -38,6 +38,8 @@ This repository is a personal research journal documenting weekly learning and e
 
 **Research Activities:**
 1. Search for recent articles, reports, and announcements in the focus areas
+   - Articles should not be published more than 60 days in the past from curren date
+   - Prioritize articles based on recency when considering publish date (pull from articles published in the past week before pulling an article published 60 days ago)
 2. Identify 4-6 key articles that are relevant and timely
 3. Do not repeat the same articles from previous research files
 4. For each article, document:
@@ -47,7 +49,7 @@ This repository is a personal research journal documenting weekly learning and e
    - Personal reflections and observations
 5. Create a research document in `research/YYYY-MM-DD-topic-research.md`
 6. Synthesize emerging themes across articles
-7. Document what was learned and how insights connect
+7. DO NOT document what was learned and how insights connect.  Leave this section blank for me to fill out
 
 **What Makes Good Research Material:**
 - Published within the last 60 days (or recent major announcements)
